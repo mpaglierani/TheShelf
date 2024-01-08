@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+	/* CONTACT */
+
+.contact {
+	background-color: #EEEEEE;
+    width: 2000px;
+    margin-right: 120px;
+    margin-top: 35px;
+    border-radius: 10px;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.contact-title {
+    height: 35px;
+    width: 100%;
+    text-align: right;
+	line-height: 30px;
+	vertical-align: top;
+    padding-left: 35px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+}
+
+.form {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    width: 100%;
+    padding: 20px;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.contact input[type=text], [type=email-address], textarea {
+  	width: 100%;
+  	padding: 10px;
+  	border: 0px;
+  	border-radius: 20px;
+  	box-sizing: border-box;
+  	margin-top: 6px;
+  	margin-bottom: 15px;
+	font-family: "Fira Sans Light", sans-serif;
+	background-color: #EEEEEE;
+}
+
+.contact label {
+    font-family: "Fira Sans Light", sans-serif;
+    font-weight: bold;	
+}
+
+.contact input[type=submit] {
+	height: 60px;
+	width: 120px;
+	padding: 20px;
+  	border: none;
+  	border-radius: 30px;
+  	background-color: #BFBA71;
+  	color: black;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 20px;
+	cursor: pointer;
+	transition: background-color 0.5s;
+}
+
+.contact input[type=submit]:hover {
+  	background-color: #8C8853;
+}
+

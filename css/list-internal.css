@@ -1,0 +1,274 @@
+@charset "utf-8";
+
+
+/* INTERNAL LIST PAGE */
+
+
+
+.list-container {
+	background-color: #F2E4E4;
+    width: 80%;
+    float: none;
+	margin: 2.5% 10%;
+    border-radius: 10px;
+	display: flex;
+ 	flex-wrap: wrap;
+  	justify-content: space-between;
+	height: auto;
+	box-shadow: inset 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.list-container a {
+	float: left;
+}
+.list-title {
+	height: 35px;
+    width: 100%;
+    text-align: right;
+	line-height: 30px;
+	vertical-align: top;
+    margin-right: 30px;
+    margin-bottom: 10px;
+	color: #573D3C;
+}
+
+.back {
+	height: 45px;
+	width: 45px;
+}
+
+.list-title button {
+	display: inline;
+	margin: 20px;
+	border: none;
+	cursor: pointer;	
+	color: #573D3C;
+	background-color: #F2E4E4;
+	float: right;
+	transition: color 0.5s;
+}
+
+.list-title button:hover {
+	color: #A36360;
+}
+
+
+.list-desc {
+	width: 100%;
+	height: auto;
+	text-align: left;
+	line-height: 20px;
+	margin: 2.5%;
+	margin-top: 5%;
+	padding: 20px;
+	background-color: white;
+	border-radius: 10px;
+	
+}
+
+.list-desc p {
+	font-family: "Fira Sans Light", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.list-desc a {
+	font-family: 'Fira Sans Light', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+    text-decoration: underline;
+	color: #573D3C;
+	transition: color 0.25s;
+}
+
+.list-desc a:hover {
+    text-decoration: underline;
+	color: #A36360;
+	cursor: pointer;
+}
+
+
+.image-container {
+	width: 100%;
+	padding: 25px;
+	justify-content: space-between;
+	display: flex;
+}
+
+.image-container a {
+ 	display: inline-block;
+ 	flex-wrap: wrap;
+ 	justify-content: space-between;
+	align-content: center;
+	width: calc(20% - 10px);
+	transition: color 0.5s;
+}
+
+.image-wrapper {
+	position: relative;
+	background-color: #FFFFFF;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.image-wrapper img {
+	width: 100%;
+    height: auto;
+	margin: 0;
+    float: center;
+    display: flex;
+    object-fit: fill;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+	aspect-ratio: 27 / 40;
+}
+
+.image-sub {
+    text-align: center;
+    width: 100%;
+    white-space: normal;
+    overflow: visible;
+    display: inline-block;
+    background-color: #FFFFFF;
+    border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.image-sub h3 {
+    font-family: "Fira Sans", sans-serif;
+	font-weight: bold;
+    font-size: 16px;
+   	color: #573D3C;
+    vertical-align: text-top;
+	width: 100%;
+}
+
+.button {
+	width: 100%;
+	float: right;
+}
+
+.button-left {
+	width: 100%;
+	float: left;
+}
+
+.button-left a {
+	float: left;
+}
+
+.button-left button {
+    margin: 15px;
+    border: none;
+    cursor: pointer;
+    color: #573D3C;
+	background-color: #F2E4E4;
+	transition: color 0.5s;
+	
+}
+
+.button-left button:hover {
+	color: #A36360;
+}
+
+.button a {
+	float: right;
+}
+
+.button button {
+    margin: 15px;
+    border: none;
+    cursor: pointer;
+    color: #573D3C;
+	background-color: #F2E4E4;
+	float: right;
+	transition: color 0.5s;
+	
+}
+
+.button button:hover {
+	color: #A36360;
+}
+
+.arrow {
+	height: 45px;
+	width: 45px;
+}
+
+
+.image-overlay {
+  	position: absolute;
+  	top: 9px; 
+  	left: 6px; 
+  	width: 25px; 
+  	height: 25px;
+  	background-color: #EEEEEE;
+  	color: #000000;
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	border-radius: 3px;
+	font-family: "Fira Sans Light", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+.image-wrapper:hover .image-overlay {
+  	opacity: 1;
+}
+
+
+
+/* MOBILE */
+
+@media (max-width : 788px ){
+	h1 {
+		font-size: 30px;
+	}
+
+	.list-desc a {
+		color: #573D3C;
+	}
+	
+	.back {
+		height: 35px;
+		width: 35px;
+	}	
+	
+	.image-container {
+		padding: 2.5%;
+	}
+	
+	.image-wrapper img {
+		height: 150px;
+		border-radius: 10px;
+	}
+	
+	.image-sub {
+		margin-bottom: 0px;
+		display: none;
+	}
+	
+	.image-overlay {
+		font-size: 10px;
+		width: 20px; 
+  		height: 20px;
+	}
+	
+	.arrow {
+		height: 35px;
+		width: 35px;
+	}
+}
+
+
+
+
+
+
+
+
+

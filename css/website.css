@@ -1,0 +1,554 @@
+@charset "utf-8";
+
+ body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    letter-spacing: normal;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+h1 {
+	font-family: Broadway;
+	font-size: 45px;
+	font-weight: normal;
+}
+
+h2 {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h3 {
+	font-family: "Fira Sans", sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+h4 {
+	font-family: Broadway;
+	font-size: 2vw;
+}
+
+h5 {
+    font-family: "Fira Sans Light", sans-serif;
+    font-size: 28px;
+    font-style: italic;
+}
+
+i {
+	stroke-weight: 2px;
+}
+
+	/* LOGO BAR */
+
+
+
+.logo-bar {
+    width: 100%;
+    height: 7vw;
+    display: flex;
+	background-color: #F2E4E4;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+	align-items: center;
+}   
+
+.logo-bar a {
+	text-decoration: none;
+    color: inherit;
+	transition: color 0.5s;
+}
+
+.logo-bar a:hover {
+	color: #A36360;
+}
+
+.logo {
+	width: 50%;
+	display: flex;
+	align-content: center; 
+    justify-content: center;
+}
+
+.logo h1 {
+	height: 100%;
+	font-size: 4.5vw;
+    font-family: Broadway;
+	font-weight: normal;
+	color: #573D3C;
+    text-align: center;
+	margin: 0;
+	transition: color 0.5s;
+	line-height: 1;
+	display: flex;
+	align-items: center;
+	
+}
+
+.logo h1:hover {
+	color: #A36360;
+}
+
+.logo img {
+	max-height: 4vw;
+	padding: 1.75vw;
+	float: left;
+	box-shadow: none;
+}
+
+.divider {
+	font-size: 3vw;
+    color: #573D3C; 
+    padding: 0 10px; 
+    line-height: 100px;
+}
+
+.nav {
+   	width: 50%;
+	height: 100%;
+	float: right;
+    color: #573D3C;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+	box-sizing: border-box;
+}
+
+.nav h2 {
+	font-size: 2vw;
+}
+
+.nav a {
+	margin: 0 20px;
+}
+
+
+.search i {
+	transition: color 0.5s;
+	color: #573D3C;
+}
+
+.search:hover {
+	color: #A36360;
+}
+
+
+
+
+	/* HOME PAGE MEDIA */
+
+
+
+.container {
+	display: flex;
+}
+
+.reviews {
+    background-color: #F2E4E4;
+    width: 80%;
+    float: left;
+	margin: 2.5% 10%;
+    border-radius: 10px;
+	display: flex;
+ 	flex-wrap: wrap;
+  	justify-content: center;
+	gap: 10px;
+	height: auto;
+	padding-bottom: 30px;
+	box-shadow: inset 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.reviews-title {
+	height: auto;
+    width: 100%;
+    vertical-align: top;
+    color: #573D3C;
+    text-align: center;
+}
+
+.reviews article {
+    background-color: #FFFFFF;
+    width: calc(25% - 5%);
+	height: auto;
+	margin-bottom: 2.5%;
+	border-radius: 10px;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+article img {
+    width: 100%;
+    height: 75%;
+	margin: 0;
+    float: left;
+    display: inline-block;
+    object-fit: fill;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+article .content {
+	height: 20%;
+	padding: 10px;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+}
+
+article .title {
+    font-family: "Fira Sans", sans-serif;
+	font-weight: bold;
+    font-size: 18px;
+    padding-top: 10px;
+    color: #573D3C;
+    vertical-align: text-top;
+    
+}
+
+article .subtitle {
+	/*
+	font-family: "Fira Sans", sans-serif;
+	font-weight: lighter;
+	font-style: italic;
+	font-size: 12px;
+	color: #544B4F;
+	margin-top: 5px;
+	margin-bottom: 5px;*/
+}
+
+article .stars {
+	height: 30px
+}
+
+.rating {
+	color: #A36360;
+	fill: #A36360;
+	height: 20px;
+	width: 20px;
+	padding-top: 5px;
+}
+
+article .more {
+    font-family: "Fira Sans Medium", sans-serif;
+    font-size: 16px;
+    color: #544B4F;
+    text-decoration: none;
+    transition: color 0.5s;
+	line-height: 18px;
+	padding-bottom: 10px;
+}
+
+article .more:hover {
+	color: #A36360;
+}
+
+
+
+	/* FEATURED POSTS */
+
+
+
+.featured {
+    background-color: #F2E4E4;
+    width: 80%;
+    float: left;
+	margin: 2.5% 10%;
+	padding-bottom: 30px;
+    border-radius: 10px;
+	display: flex;
+ 	flex-wrap: wrap;
+  	justify-content: center;
+	gap: 10px;
+	height: auto;
+	box-shadow: inset 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.featured-post {
+    background-color: #FFFFFF;
+    width: 100%;
+	height: 300px;
+    margin: 10px 50px;
+	border-radius: 10px;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.featured-post img {
+    height: 300px;
+	max-width: 25%;
+    float: left;
+    display: inline-block;
+    object-fit: fill;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.post-content {
+	height: 300px;
+	margin: 10px;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.post-title {
+	color: #573D3C;
+	font-family: Broadway;
+	font-size: 24px;
+	padding: 10px;
+}
+
+.post-title a {
+	font-size: 24px;
+	margin: none;
+	transition: color 0.75s;
+}
+
+.post-text {
+	padding: 10px;
+	font-family: "Fira Sans", sans-serif;
+	font-size: 16px;
+}
+
+.featured-post a {
+	transition: color 0.5s;
+}
+.featured-post a:hover {
+	color: #A36360;
+}
+
+
+
+
+	/* FOOTER */
+
+
+
+.footer {
+   	display: flex;
+	justify-content: center;
+    align-items: center;
+    background-color: #573D3C;
+    width: 100%;
+    height: 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 5px 0px;
+    
+}
+
+.footer-icon {
+	display: flex;
+	width: 50px;
+    height: 50px;
+	transition: opacity 0.5s;
+	color: #FFFFFF; 
+    margin: 0 10px;
+	align-items: center; 
+    justify-content: center;
+}
+
+.footer-icon:hover {
+	opacity: 0.75;
+}
+
+
+
+	/* MOBILE */
+
+
+.mobile-menu {
+	display: none;
+}
+
+
+.menu-toggle {
+  	display: none;
+}
+
+
+@media (max-width : 788px ){
+	
+	.logo-bar {
+		height: 10vw;
+		
+	}
+	
+	.logo {
+		width: 70%;
+		height: 100%;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+    	justify-content: center;
+		text-align: center;
+		padding-top: 0;
+	}
+	
+	.logo img {
+		max-height: 40px;
+		margin: 0;
+		padding: 0;
+		margin-right: 10px;
+	}
+	
+	.logo h1 {
+		display: inline;
+		line-height: 40px;
+		font-size: 40px;
+		font-family: Broadway;
+		font-weight: normal;
+		color: #573D3C;
+		text-align: center;
+		transition: color 0.5s;
+		align-self: center;
+	}
+
+	.logo h1:hover {
+		color: #A36360;
+	}
+	
+	.divider {
+		display: none;
+	}
+	
+  	.nav {
+    	display: none;
+  	}
+	
+	.mobile-menu-icons {
+  		display: flex;
+  		align-items: center;
+		margin: 25px;
+	}
+	
+  	.menu-toggle {
+    	display: block;
+    	padding: 10px;
+    	cursor: pointer;
+  	}
+	
+	.menu-toggle, .mobile-search {
+		transform: scale(1.5);
+		padding-right: 20px;
+	}
+
+  	.mobile-menu {
+		color: #573D3C;
+    	display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 30%;
+  	}
+
+  	.mobile-links {
+  		display: none;
+		position: absolute;
+		top: 70px;
+		right: 0;
+		left: 0;
+		z-index: 1;
+  		padding: 10px;
+		margin: 10px;
+  		border-radius: 10px;
+ 		box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+		background-color: #F2E4E4;  		
+		
+	}
+
+	.mobile-links.show-links {
+  		display: flex; 
+		align-items: center;
+		justify-content: space-around;
+}
+
+	.mobile-links a {
+		font-family: "Fira Sans", sans-serif;
+  		font-size: 20px;
+		font-weight: bold;
+  		color: #573D3C;
+  		padding: 10px;
+  		text-align: center;
+  		text-decoration: none;
+		
+	}
+	
+	
+	.reviews article {
+		width: 90%;
+	}
+	
+	article .title {
+		font-size: 24px;
+	}
+	
+	article .more {
+		font-size: 24px;
+	}
+	
+	h2 {
+		font-size: 32px;
+	}
+	
+	article .content {
+
+	}
+	
+	.featured-post {
+    	width: 90%;
+		height: auto;
+		margin: 20px 0;
+		border-radius: 10px;
+		padding: none;
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.featured-post img {
+		max-width: 100%;
+		height: auto;
+		margin: 0;
+		padding: 0;
+		object-fit: cover;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+		border-bottom-left-radius: 0px;
+		
+	}
+	
+	.post-text {
+		display: flex;
+		flex-direction: column;
+		padding: 10px;
+		text-align: center;
+	}
+	
+	.post-title {
+		text-align: center;
+		padding: 10px;
+	}	
+	
+	.post-title a {
+		font-size: 24px;
+		margin: none;
+	}	
+	
+	.featured-post p {
+		font-size: 16px;
+	}
+	
+	.featured-post a {
+		font-size: 20px;
+	}
+	
+}

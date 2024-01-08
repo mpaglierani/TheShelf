@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Review</title>
+	<link rel = "icon" href = "images/Logo.png" type = "image/x-icon">
+	<link href="css/website.css" rel="stylesheet" type="text/css">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,600;1,300;1,600&display=swap" rel="stylesheet">
+	<link href="https://fonts.cdnfonts.com/css/broadway" rel="stylesheet">
+	
+	<script src="https://unpkg.com/feather-icons"></script>
+	<script src="buttons.js"></script>
+</head>
+<body>
+
+	
+<!-----LOGO BAR-----><!-- #BeginLibraryItem "/Library/Logo-Bar.lbi" -->	
+
+<div class="logo-bar">
+		
+	<div class="logo"> 
+		<a href="https://ceweb2.uml.edu/marguerite_paglierani/home.html">
+			<img src="https://ceweb2.uml.edu/marguerite_paglierani/images/shelf-logo.png" alt="logo"/>
+			<h1>The Shelf</h1>
+		</a>
+	</div>
+		
+	<div class="divider">|</div>
+		
+	<div class="nav">
+		<a href="https://ceweb2.uml.edu/marguerite_paglierani/about.html"><h2>ABOUT</h2></a>
+		<a href="https://ceweb2.uml.edu/marguerite_paglierani/lists.html"><h2>LISTS</h2></a>
+		<a href="https://ceweb2.uml.edu/marguerite_paglierani/all-media.html"><h2>ALL MEDIA</h2></a>
+		<a href="https://ceweb2.uml.edu/marguerite_paglierani/blog.html"><h2>BLOG</h2></a>
+		<i data-feather="search" class="search" width="2vw" height="2vw" stroke-width="2"></i>
+	</div>
+	
+	<div class="mobile-menu">
+		<div class="mobile-menu-icons">
+			<i data-feather="search" class="mobile-search"></i>
+			<i data-feather="menu" class="menu-toggle"></i>
+		</div>
+		<div class="mobile-links">
+			<a href="https://ceweb2.uml.edu/marguerite_paglierani/about.html">ABOUT</a> | 
+			<a href="https://ceweb2.uml.edu/marguerite_paglierani/lists.html">LISTS</a> | 
+			<a href="https://ceweb2.uml.edu/marguerite_paglierani/all-media.html">ALL MEDIA</a> | 
+			<a href="https://ceweb2.uml.edu/marguerite_paglierani/blog.html">BLOG</a>
+		</div>
+	</div>
+				
+</div>	<!-- #EndLibraryItem --><!-----NAVIGATION----->
+	
+	
+<div class="container"><!-- #BeginLibraryItem "/Library/Navigation.lbi" -->	<div class="navigation">
+		
+	<a href="https://ceweb2.uml.edu/marguerite_paglierani/about-page.html">
+		<div class="nav-bar">
+			ABOUT
+		</div>
+	</a>
+	
+	<a href="https://ceweb2.uml.edu/marguerite_paglierani/lists.html">
+		<div class="nav-bar">
+			LISTS
+		</div>
+	</a>
+	
+	<a href="https://ceweb2.uml.edu/marguerite_paglierani/all-media.html">
+		<div class="nav-bar">
+			ALL MEDIA
+		</div>
+	</a>
+	
+		<div class="nav-icons">
+			
+			<a href="https://ceweb2.uml.edu/marguerite_paglierani/contact.html" title="Contact!">
+				<i data-feather="inbox" class="feather-50" ></i>
+			</a>
+			
+			<a href="https://www.instagram.com/margurrrite/" title="Instagram" target="_blank">
+				<i data-feather="instagram" class="feather-50"></i>
+			</a>
+			
+			<a href="https://www.goodreads.com/user/show/146017790-marguerite" title="Goodreads" target="_blank">
+				<i data-feather="book" class="feather-50"></i>
+			</a>
+			
+			<a href="https://letterboxd.com/margurrrite/" title="Letterboxd" target="_blank">
+				<i data-feather="film" class="feather-50"></i>
+			</a>
+			
+		</div>
+	</div><!-- #EndLibraryItem --><!-----REVIEW----->
+	
+<!-- TemplateBeginEditable name="review" -->
+	
+	<div class="review">
+		
+		<div class="review-title">
+		  	<h1>Title</h1>
+			<h5>Subtitle</h5>
+		</div>
+		
+		<div class="review-content">
+			<div class="review-img">
+				<img src="https://ceweb2.uml.edu/marguerite_paglierani/images/" alt="Title">
+			</div>
+			<div class="additional-content">
+				<i data-feather="star" class="review-star"></i>
+				<i data-feather="star" class="review-star"></i>
+				<i data-feather="star" class="review-star"></i>
+				<i data-feather="star" class="review-star"></i>
+				<i data-feather="star" class="review-star"></i>
+			</div>
+		</div>
+		
+      	<div class="review-text">
+			<h2>Small Title</h2>
+			<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+			</h3>
+		</div>
+		
+		<div class="button-container">
+			<button id="previousBtn">
+				<i data-feather="arrow-left" class="pointer"></i> Previous
+			</button>
+			<button id="nextBtn">
+				Next <i data-feather="arrow-right" class="pointer"></i>
+			</button>
+		</div>
+		
+	</div>
+	
+<!-- TemplateEndEditable -->
+		
+</div>
+
+<script src="buttons.js"></script>
+<script>feather.replace()</script>	
+</body>
+</html>
