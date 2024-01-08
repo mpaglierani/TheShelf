@@ -1,0 +1,157 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>The Great</title>
+	<link rel = "icon" href = "images/Logo.png" type = "image/x-icon">
+	
+	<link href="css/website.css" rel="stylesheet" type="text/css">
+	<link href="css/review.css" rel="stylesheet" type="text/css">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,600;1,300;1,600&display=swap" rel="stylesheet">
+	<link href="https://fonts.cdnfonts.com/css/broadway" rel="stylesheet">
+	
+	<script src="https://unpkg.com/feather-icons"></script>
+	<script src="buttons.js"></script>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+	
+<!-----LOGO BAR-----><!-- #BeginLibraryItem "/Library/Logo-Bar.lbi" -->	
+
+<div class="logo-bar">
+		
+	<div class="logo"> 
+		<a href="../home.html">
+			<img src="../images/logo.png" alt="logo"/>
+			<h1>The Shelf</h1>
+		</a>
+	</div>
+		
+	<div class="divider">|</div>
+		
+	<div class="nav">
+		<a href="../about.html"><h2>ABOUT</h2></a>
+		<a href="../lists.html"><h2>LISTS</h2></a>
+		<a href="../all-media.html"><h2>ALL MEDIA</h2></a>
+		<a href="../blog.html"><h2>BLOG</h2></a>
+		<i data-feather="search" class="search" width="2vw" height="2vw" stroke-width="2"></i>
+	</div>
+	
+	
+	<div class="mobile-menu">
+		<div class="mobile-menu-icons">
+			<i data-feather="search" class="mobile-search"></i>
+			<i data-feather="menu" class="menu-toggle"></i>
+		</div>
+		<div class="mobile-links">
+			<a href="../about.html">ABOUT</a> | 
+			<a href="../lists.html">LISTS</a> | 
+			<a href="../all-media.html">ALL MEDIA</a> | 
+			<a href="../blog.html">BLOG</a>
+		</div>
+	</div>
+				
+</div>	<!-- #EndLibraryItem --><!-----REVIEW----->	
+	
+<div class="container">
+	
+<!-- TemplateBeginEditable name="review" -->
+	
+	<div class="review">
+		
+		<div class="review-title">
+		  	<h1>The Great</h1>
+			<h5>by Hulu</h5>
+		</div>
+		
+		<div class="review-content">
+			<div class="review-img">
+				<img src="images/great.jpg" alt="The Great">
+			</div>
+			<div class="review-stars">
+				<i data-feather="star" class="star"></i>
+				<i data-feather="star" class="star"></i>
+				<i data-feather="star" class="star"></i>
+				<i data-feather="star" class="star"></i>
+				<i data-feather="star" class="star"></i>
+			</div>
+			<div class="additional-content">
+				<h3>Creator</h3>
+				<br><p>Tony McNamara</p>
+				<br><br><h3>Genre</h3>
+				<br><p>Biography • Comedy • Drama</p>
+				<br><br><h3>IMDB</h3><p> •  4.1/5</p>
+				<br><h3>Rotten Tomatoes</h3><p> • 4.8/5</p>
+			</div>
+		</div>
+		
+      	<div class="review-text">
+			<h2>A Hilarious Triumph of Historical Satire</h2>
+			<p><i>The Great</i> emerges as a delightful and irreverent gem in the realm of historical satire. This Hulu original, led by the dynamic performances of Elle Fanning and Nicholas Hoult, takes viewers on a wildly entertaining journey through the eccentric and scandalous court of Catherine the Great.</p>
+			<p>Elle Fanning's portrayal of Catherine is a revelation—her comedic timing and charismatic presence breathe fresh life into this historical figure, transforming her into a thoroughly modern and relatable heroine. Opposite her, Nicholas Hoult's Peter III is a scene-stealing tour de force, delivering laughs and occasional menace with equal brilliance.</p>
+			<p>The writing is sharp and witty, with a keen sense of satire that skewers the conventions of period dramas. The dialogue crackles with energy, and the narrative twists and turns keep audiences guessing and laughing in equal measure. The show's ability to balance comedy with moments of genuine emotion is a testament to its narrative prowess.</p>
+		</div>
+		
+		<div class="button-container">
+			<button id="previousBtn">
+				<i data-feather="arrow-left" class="pointer"></i> Previous
+			</button>
+			<button id="nextBtn">
+				Next <i data-feather="arrow-right" class="pointer"></i>
+			</button>
+		</div>
+		
+	</div>
+	
+<!-- TemplateEndEditable -->
+		
+</div>
+	
+<!-----FOOTER-----><!-- #BeginLibraryItem "/Library/Footer.lbi" --><div class="footer">
+
+<div class="footer">
+	<div class="footer-icon">
+	
+		<a href="../home.html" title="Home">
+			<i data-feather="home" class="footer-icon" ></i>
+		</a>
+
+		<a href="../contact.html" title="Contact!">
+			<i data-feather="inbox" class="footer-icon" ></i>
+		</a>
+
+		<a href="https://www.instagram.com/margurrrite/" title="Instagram" target="_blank">
+			<i data-feather="instagram" class="footer-icon"></i>
+		</a>
+
+		<a href="https://www.goodreads.com/user/show/146017790-marguerite" title="Goodreads" target="_blank">
+			<i data-feather="book" class="footer-icon"></i>
+		</a>
+
+		<a href="https://letterboxd.com/margurrrite/" title="Letterboxd" target="_blank">
+			<i data-feather="film" class="footer-icon"></i>
+		</a>
+		
+	</div>
+</div><!-- #EndLibraryItem --></div>
+	
+<script src="buttons.js"></script>
+	
+<script>feather.replace()</script>	
+	
+<script>
+	const menuToggle = document.querySelector(".menu-toggle");
+  	const mobileLinks = document.querySelector(".mobile-links");
+
+  	menuToggle.addEventListener("click", () => {
+    	mobileLinks.classList.toggle("show-links");
+  	});
+</script>
+	
+</body>
+</html>
